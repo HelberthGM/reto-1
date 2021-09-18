@@ -36,6 +36,33 @@ h2 {
     justify-content: center;
 }
 
-.card {
+/* .card {
     width: 20em;
+} */
+
+.evento {
+    position: absolute;
+    object-fit: cover;
+    height:100vh;
+    width:100vw; 
+    z-index: -1;
+}
+
+.icono{
+    background-color: rgba(0, 0, 0, 0);
+    /*   
+    height:100px;
+    position: absolute; 
+    width:100px;
+    top: 40px;
+    left : 40px;
+    */
+    z-index: 1; 
+}
+.card{
+    background-color: transparent;
+}
+.card-group{
+    color: white;
+    background-color: transparent;
 }
