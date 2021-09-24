@@ -10,24 +10,27 @@ h2 {
 }
 
 .container{
+    display:grid;
     color: white;
     position: relative;
-    display: inline-block;
     text-align: center;
-        }
+    margin-left: 0%;
+    padding: 0%;
+    }
 
 .titulo{
-        position: absolute;
-        top: 10px;
-        left: 50%;
-        padding-block-start: 2em;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    padding-block-start: 2em;
+    font-size: large;
 }
 
 .texto{
-        position: absolute;
-        top: 40%;
-        left: 60%;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
 }
 
 .menu {
@@ -36,10 +39,13 @@ h2 {
     justify-content: center;
 }
 
-/* .card {
-    width: 20em;
-} */
-
+.titulo1{
+    position: initial;
+    top: 10px;
+    left: 50%;
+    padding-block-start: 2em;
+    font-weight: bold;
+}
 .evento {
     position: absolute;
     object-fit: cover;
