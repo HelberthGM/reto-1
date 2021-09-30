@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,400;1,700&display=swap');
 
+.navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
 mark {
-    background-color: rgb(255, 102, 0);
+    background-color: tomato;
     color: white;
 }
 
