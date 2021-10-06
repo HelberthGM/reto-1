@@ -78,3 +78,33 @@ h2 {
     color: white;
     background-color: transparent;
 }
+
+.caption {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: small;
+}
+
+footer{
+    background-color: #7C3030; 
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr auto;
+}
+
+.logo{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.datos-contacto{
+    grid-row: 2;
+}
+
+.info-contacto{
+    grid-row: 2;
+}
+
+.mapa{
+    grid-row: 2;
+}
