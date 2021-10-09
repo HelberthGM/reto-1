@@ -4,6 +4,7 @@
     position: fixed;
     width: 100vw;
     z-index: 1;
+    background-color: rgba(0, 0, 0, 0.63);
 }
 
 mark {
@@ -87,24 +88,29 @@ h2 {
 footer{
     background-color: #7C3030; 
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 1fr auto;
+    display: flex;
+    /* grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr auto; */
 }
 
-.logo{
+/* .logo{
     grid-row: 1;
-    grid-column: 2;
-}
-
+    grid-column: 1;
+} */
+/*
 .datos-contacto{
-    grid-row: 2;
+    grid-row: 2; 
+}*/
+button{
+    background: none;
+    color: white;
+    border: none;
 }
 
-.info-contacto{
-    grid-row: 2;
+/* .info-contacto{
+    grid-row: 3;
 }
 
 .mapa{
     grid-row: 2;
-}
+}  */
