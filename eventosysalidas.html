@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Eventos y salidas</title>
+		<script src="funciones.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Eventos y salidas</h1>
+        <button onclick="mostrarFecha()">Fecha actual</button>
+        <button onclick="alertas()">Abrir una alerta</button>
+        <button onclick="consola()">Enviar datos a la consola del navegador</button>
+        <button onclick="window.print()">Imprimir esta pagina</button>
+
+        <p>Seleccione una opcion de la lista</p>
+
+        <select id="lenguaje" onchange="cambiar()">
+            <option value="HTML">HTML</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="React">React</option>
+            <option value="MySQL">MySQL</option>
+        </select>
+
+<p>Cuando se seleccione una opcion, el p con id cambio mostrar el value de la opcion.</p>
+
+<button onclick="preguntapromt()">Cual es tu nombre?</button>
+
+
+
+<p id="fecha"></p>
+<p id="opcion"></p>
+<p id="promt"></p>
+
+
+
+    </body>
+</html>  

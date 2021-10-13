@@ -1,0 +1,43 @@
+footer{
+    background-color: #7C3030; 
+    color: white;
+    display: flex;
+    text-decoration: none; 
+}
+
+.linkf{
+    text-decoration: none;
+    color: white;
+    padding-left: 2em;
+    
+}
+.linkf:hover{
+    color: burlywood;
+}
+
+.mail{
+    color: white;
+}
+.mail:hover{
+    color: burlywood;
+}
+
+.datos-contacto{
+    padding: 3em; 
+}
+
+button{
+    background-color: #FFA701 ;
+    color:white;
+    border-radius: 10px;
+    border: none;
+    width:6rem;
+    height:2rem;
+} 
+button:hover{
+    background-color: #fcba2d;
+}
+
+.info-contacto{
+    padding-top: 9rem;
+}

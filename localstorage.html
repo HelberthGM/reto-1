@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="./styles/normalize.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">           
-        <title>Contáctenos</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <!-- estilo de la pagina -->
+    <link rel="stylesheet" href="./styles/footer.css">
+    <title>Contáctenos</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 
-        <script src="funciones.js" type="text/javascript"></script>
+    <script src="funciones.js" type="text/javascript"></script>
 </head>
         
 <body>
@@ -27,16 +29,47 @@
                         <a class="nav-link" href="#">EL MENÚ</a>
                         <a class="nav-link" href="#">SERVICIOS</a>
                         <a class="nav-link" href="./localstorage.html">CONTACTÁNOS</a>
+                        <a class="nav-link" href="./calculadora.html">CALCULADORA</a>
                     </div>
                 </div>
             </div>
         </nav>
-    <center>
+    
+    <div style="text-align: center;border: 2px; border-color: black;">
     <h1>Datos de contacto</h1>
 
     <input type="text" placeholder="Nombre" id="nombretxt"> <br>  <br>   
     <input type="text" placeholder="Apellido" id="apellidotxt"><br>  <br>
-    <button id="boton-guardar" onclick="window.location.href='cargardatos.html'">Guardar</button><br>
-</center>
+    <textarea name="Agendamiento" id="infotxt" cols="30" rows="10" placeholder="Pedido o evento por agendar"></textarea>
+    <br>  <br>
+    <button id="boton-guardar" onclick="window.location.href='cargardatos.html'">Enviar</button><br>
+    </div>
+
+    <footer>
+        <img src="./insumos/logo@2x.png" alt="logo" width="450em" height="350em" class="logo">
+        <div class="datos-contacto">
+            <br><br>
+            <a href="#" class="linkf">Mapa del sitio</a>
+            <br><br><br>
+            <a href="#" class="linkf">Contactános</a>
+            <br><br><br>
+            <a href="./localstorage.html" class="linkf">Reservas</a>
+        </div>
+        <br>
+        <hr>
+        <div class="info-contacto">
+            <span>calle 0 #00-00</span>
+            <br>
+            <a href="mailto: helberth12@gmail.com" class="mail">correo.restaurante@correo.com</a>
+            <br>
+            <span>Numero de contacto: +111111111</span>
+            <br>
+            <span>©Copyright 2021</span>
+        </div>
+        <div style="margin: auto;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.3928068371!2d-74.24789614977861!3d4.6486259428206775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1631816652374!5m2!1ses!2sco" 
+            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="mapa"></iframe>
+        </div>
+    </footer>
 </body> 
 </html>

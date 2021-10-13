@@ -89,28 +89,33 @@ footer{
     background-color: #7C3030; 
     color: white;
     display: flex;
-    /* grid-template-columns: 1fr 2fr 2fr;
-    grid-template-rows: 1fr auto; */
+    text-decoration: none;
 }
 
-/* .logo{
-    grid-row: 1;
-    grid-column: 1;
-} */
-/*
+.linkf{
+    text-decoration: none;
+    color: white;
+    padding-left: 2em;
+    
+}
+a:hover{
+    color: burlywood;
+}
+
+.mail{
+    color: white;
+}
+
 .datos-contacto{
-    grid-row: 2; 
-}*/
+    padding: 3em; 
+}
+
 button{
     background: none;
     color: white;
     border: none;
 }
 
-/* .info-contacto{
-    grid-row: 3;
+.info-contacto{
+    padding-top: 9rem;
 }
-
-.mapa{
-    grid-row: 2;
-}  */
